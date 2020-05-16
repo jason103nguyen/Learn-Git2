@@ -18,10 +18,19 @@ def autoTakingOff():
 		sleep(1)
 		timeTakingOff -= 1
 
+def autoLanding():
+	from time import sleep
+	timeLanding = 7
+	while timeLanding > 0:
+		print("Flycam is landing: ", timeLanding)
+		sleep(1)
+		timeLanding -= 1
+
 print("Flycam is running ...")
 levelHigh = input("Nhap do cao: ")
 local = input("Nhap dia diem: ")
 setLichTrinh(levelHigh,local)
 autoTakingOff()
+autoLanding()
 
 
