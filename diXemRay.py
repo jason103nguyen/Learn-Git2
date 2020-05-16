@@ -19,7 +19,9 @@ def autoTakingOff():
 		timeTakingOff -= 1
 
 print("Flycam is running ...")
-setLichTrinh(1000, "Tan Nghia")
+levelHigh = input("Nhap do cao: ")
+local = input("Nhap dia diem: ")
+setLichTrinh(levelHigh,local)
 autoTakingOff()
 
 
