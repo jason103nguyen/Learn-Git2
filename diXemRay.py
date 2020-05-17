@@ -4,6 +4,8 @@ Day la chuong trinh may bay flycam dung de di tham ray
 Feature 2: bay theo lich trinh co san
 Feature 3: tu dong ha canh
 Feature 4: tu dong cat canh
+Feature 5: tu dong do do sang
+Feature 6: tu dong nhan dien khuong mat
 """
 
 def setLichTrinh(doCao, diaDiem):
